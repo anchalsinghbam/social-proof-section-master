@@ -1,0 +1,260 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+header {
+    height: 100vh;
+}
+
+h1 {
+    color: hsl(300, 43%, 22%);
+    font-size: 2.5rem;
+    font-weight: 700;
+    position: absolute;
+    margin: -15rem 0 0 8rem;
+}
+
+.p1 {
+    color: hsl(303, 10%, 53%);
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    margin: -5rem 55rem 0 8rem;
+    line-height: 1.5;
+}
+
+.bgm {
+    display: none;
+}
+
+.bgbm {
+    display: none;
+}
+
+.bg {
+    margin: -2rem 0 0 -2rem;
+}
+
+.bgb {
+    margin: 8rem 0 0 -13rem;
+    position: absolute;
+}
+
+.rated {
+    margin-top: -14rem;
+    position: absolute;
+}
+
+.reviews {
+    width: 25rem;
+    height: 3.5rem;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 0 40rem;
+}
+
+.report {
+    width: 26.5rem;
+    height: 3.5rem;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 0 43rem;
+}
+
+.besttech {
+    width: 25rem;
+    height: 3.5rem;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 0 46rem;
+}
+
+.p2 {
+    color: hsl(300, 43%, 22%);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.p2>span {
+    margin: 0 2rem 0 -1rem;
+}
+
+.about {
+    display: flex;
+    margin: 2rem 0 0 8rem;
+}
+
+.smith {
+    width: 20rem;
+    height: 13rem;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+}
+
+.roberts {
+    width: 20em;
+    height: 13rem;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    margin: 1.5rem;
+}
+
+.wallace {
+    width: 20rem;
+    height: 13rem;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    margin-top: 3rem;
+}
+
+.Buyer {
+    display: flex;
+    margin: 2rem 0 0 2rem;
+}
+
+.photos {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+
+.p3 {
+    color: hsl(0, 0%, 100%);
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 1rem 2rem 0 2rem;
+}
+
+.name {
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 0 0 1.5rem;
+    line-height: 1.3;
+}
+
+.name>span {
+    color: hsl(333, 80%, 67%);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 400px) {
+
+    body {
+        overflow-y: scroll;
+    }
+
+    .bgm {
+        display: inline;
+        width: 25rem;
+    }
+
+    .bgbm {
+        display: inline;
+        position: relative;
+        top: 47rem;
+        left: 1.5rem;
+    }
+
+    .bg {
+        display: none;
+    }
+
+    .bgb {
+        display: none;
+    }
+
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+        margin: -42.5rem 0 0 4rem;
+    }
+
+    .p1 {
+        font-size: 15px;
+        text-align: center;
+        margin: -33.5rem 2rem 0 1.5rem;
+    }
+
+    .rated {
+        margin-top: -25rem;
+    }
+
+    .reviews {
+        width: 23rem;
+        height: 5rem;
+        background-color: hsl(300, 24%, 96%);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 0 0 1rem;
+    }
+
+    .report {
+        width: 23rem;
+        height: 5rem;
+        background-color: hsl(300, 24%, 96%);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem 0 0 1rem;
+    }
+
+    .besttech {
+        width: 23rem;
+        height: 5rem;
+        background-color: hsl(300, 24%, 96%);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem 0 0 1rem;
+    }
+
+    .p2 {
+        line-height: 2;
+        margin-left: 5rem;
+    }
+
+    .p2>span {
+        margin: 0 8rem 0 3rem;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        margin: 2rem 0 0 1rem;
+    }
+
+    .smith {
+        margin: 0 0 0 1.5rem;
+    }
+
+    .roberts {
+        border-radius: 10px;
+        margin: 1.5rem 0 0 1.5rem;
+    }
+
+    .wallace {
+        margin: 1.5rem 0 0 1.5rem;
+    }
+}
